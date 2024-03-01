@@ -1,0 +1,11 @@
+CREATE DATABASE db_Crud;
+ 
+USE db_Crud;
+CREATE TABLE tb_aluno(
+	id SERIAL PRIMARY KEY NOT NULL,
+	nome VARCHAR (50) NOT NULL,
+	endereco VARCHAR (80) NOT NULL,
+	fone INT (35) NOT NULL,
+	email VARCHAR(50) NOT NULL,
+	sexo VARCHAR(1) NOT NULL
+);

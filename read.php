@@ -46,7 +46,7 @@ Banco::desconectar();
 <label class="control-label">Endereço</label>
 <div class="controls form-control disabled">
 <label class="carousel-inner">
-<?php echo $datal['endereco']; ?>
+<?php echo $data['endereco']; ?>
 </label>
 </div>
 </div>
@@ -54,7 +54,7 @@ Banco::desconectar();
 <label class="control-label">Telefone</label>
 <div class="controls form-control disabled">
 <label class="carousel-inner">
-<?php echo $data['telefone']; ?>
+<?php echo $data['fone']; ?>
 </label>
 </div>
 </div>
